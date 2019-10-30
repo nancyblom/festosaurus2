@@ -1,0 +1,98 @@
+
+body {
+    background-color: #ffeeec;
+}
+
+#logoText {
+    position: absolute;
+    margin-top: -20px;
+    height: 130px;
+}
+
+#princessImage {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 250px;
+    width: 400px;
+    box-shadow: 3px 3px #daaaaa70;
+}
+
+#vaderImage {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 250px;
+    width: 400px;
+    box-shadow: 3px 3px #daaaaa70;
+}
+
+#grinchImage {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 250px;
+    width: 400px;
+    box-shadow: 3px 3px #daaaaa70;
+}
+
+#text1 {
+    font-size: 2em;
+    color: #72727298;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 700px;
+}
+
+#text2 {
+    font-size: 1em;
+    color: #72727298;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 700px;
+}
+
+#bokaKnapp {
+    background-color: #ffdcdc;
+    color: #da9fa9;
+    font-size: 1.5em;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    margin-top: 546px;
+    margin-left: 700px;
+    box-shadow: 2px 2px #daaaaa70;
+}
+
+#bokaKnapp:hover {
+    color: palevioletred;
+}
+
+
+/* START HEADER */
+nav {
+    width: 99vw;
+}
+nav ul {
+  text-align: right;
+}
+
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+    padding: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    font-family: "apple symbols";
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    display: block;
+  }
+  nav ul li a:hover {
+    background: rgba(255, 216, 216, 0.377);
+  }
+
+  /* END HEADER */
+

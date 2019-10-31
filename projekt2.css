@@ -27,7 +27,8 @@ nav {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     justify-items: center;
-    
+    top: 1em;
+    position: relative;
     align-items: center;
     width: 100vh;
     margin: 0 auto;

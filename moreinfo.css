@@ -3,6 +3,15 @@ body {
     background-color: #ffeeec;
 }
 
+#indexBody {
+    background-image: url(images/joyceAdams.jpg);
+    width: 100vw;
+    background-repeat: no-repeat;
+    margin-top: -20p;
+
+}
+
+
 #logoText {
     position: absolute;
     margin-top: -20px;
@@ -68,6 +77,29 @@ body {
     color: palevioletred;
 }
 
+#indexHeader {
+    position: absolute;
+    height: 130px;
+}
+
+.first {
+    position: absolute;
+    top: 160px;
+    left: 400px;
+    font-style: italic;
+    color: white;
+    font-size: 100px;
+    text-shadow: 2px 2px 3px lightgrey;
+}
+.second{
+    position: absolute;
+    top: 240px;
+    left: 750px;
+    font-style: italic;
+    color: white;
+    font-size: 100px;
+    text-shadow: 2px 2px 3px lightgrey;
+}
 
 /* START HEADER */
 nav {

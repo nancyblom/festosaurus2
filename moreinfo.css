@@ -1,24 +1,48 @@
-
 body {
     background-color: #ffeeec;
 }
 
-#indexBody {
-    background-image: url(images/joyceAdams.jpg);
-    width: 100vw;
-    background-repeat: no-repeat;
-    margin-top: -20p;
 
+#logo{
+    position: absolute;
+    margin-top: -10px;
+    margin-left: 0px;
+    height: 90px;
 }
 
-
-#logoText {
+#clownImage {
     position: absolute;
-    margin-top: -20px;
-    height: 130px;
+    margin-top: 200px;
+    margin-left: 250px;
+    width: 400px;
+    box-shadow: 3px 3px #daaaaa70;
+}
+
+#knightImage {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 250px;
+    width: 400px;
+    box-shadow: 3px 3px #daaaaa70;
+}
+
+#mononokeImage {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 250px;
+    width: 400px;
+    box-shadow: 3px 3px #daaaaa70;
 }
 
 #princessImage {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 250px;
+    width: 400px;
+    box-shadow: 3px 3px #daaaaa70;
+}
+
+#squirtleImage {
     position: absolute;
     margin-top: 200px;
     margin-left: 250px;
@@ -44,8 +68,8 @@ body {
 
 #text1 {
     font-size: 2em;
-    color: #72727298;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #5e554c;
+    font-family: Palatino, "Times New Roman";
     position: absolute;
     margin-top: 200px;
     margin-left: 700px;
@@ -53,8 +77,8 @@ body {
 
 #text2 {
     font-size: 1em;
-    color: #72727298;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #5e554c;
+    font-family: Palatino, "Times New Roman";
     position: absolute;
     margin-top: 300px;
     margin-left: 700px;
@@ -71,60 +95,36 @@ body {
     margin-top: 546px;
     margin-left: 700px;
     box-shadow: 2px 2px #daaaaa70;
+    line-height: 50px;
 }
 
 #bokaKnapp:hover {
     color: palevioletred;
 }
 
-#indexHeader {
-    position: absolute;
-    height: 130px;
-}
-
-.first {
-    position: absolute;
-    top: 160px;
-    left: 400px;
-    font-style: italic;
-    color: white;
-    font-size: 100px;
-    text-shadow: 2px 2px 3px lightgrey;
-}
-.second{
-    position: absolute;
-    top: 240px;
-    left: 750px;
-    font-style: italic;
-    color: white;
-    font-size: 100px;
-    text-shadow: 2px 2px 3px lightgrey;
-}
-
-/* START HEADER */
-nav {
-    width: 99vw;
-}
 nav ul {
-  text-align: right;
-}
-
-nav ul li {
-  display: inline-block;
-}
-nav ul li a {
-    padding: 20px;
-    margin-right: 20px;
-    margin-top: 10px;
-    font-family: "apple symbols";
-    color: black;
+    text-align: right;
+  }
+  nav ul li {
+    display: inline-block;
+  }
+  nav ul li a {
+    padding: 30px;
+    font-family: Palatino, "Times New Roman";
+    color: #5e554c;
     font-size: 20px;
     text-decoration: none;
     display: block;
+    text-shadow: 2px 2px 3px lightgrey;
   }
   nav ul li a:hover {
-    background: rgba(255, 216, 216, 0.377);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.1);
   }
 
-  /* END HEADER */
-
+  #logo{
+    position: absolute;
+    margin-top: -10px;
+    margin-left: 0px;
+    height: 90px;
+  }

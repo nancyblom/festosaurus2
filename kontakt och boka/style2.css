@@ -111,7 +111,8 @@ button {
 		font-size: 1.1em;
 		padding: 0.2em 0.4em;
 		background-color: red;
-	}
+  }
+}
  @media (pointer: coarse){
 	button {
 		font-size: 1.3em;
@@ -162,4 +163,4 @@ img {
 .fade-in:hover > img {
 	opacity: 0.2;
 }
-}
+

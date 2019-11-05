@@ -11,7 +11,39 @@ body {
     height: 90px;
 }
 
+#clownImage {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 250px;
+    width: 400px;
+    box-shadow: 3px 3px #daaaaa70;
+}
+
+#knightImage {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 250px;
+    width: 400px;
+    box-shadow: 3px 3px #daaaaa70;
+}
+
+#mononokeImage {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 250px;
+    width: 400px;
+    box-shadow: 3px 3px #daaaaa70;
+}
+
 #princessImage {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 250px;
+    width: 400px;
+    box-shadow: 3px 3px #daaaaa70;
+}
+
+#squirtleImage {
     position: absolute;
     margin-top: 200px;
     margin-left: 250px;
@@ -81,7 +113,7 @@ nav ul {
     padding: 30px;
     font-family: Palatino, "Times New Roman";
     color: #5e554c;
-    font-size: 25px;
+    font-size: 20px;
     text-decoration: none;
     display: block;
     text-shadow: 2px 2px 3px lightgrey;

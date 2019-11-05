@@ -10,6 +10,14 @@ body {
     height: 90px;
 }
 
+#ballerinaImage {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 250px;
+    width: 400px;
+    box-shadow: 3px 3px #daaaaa70;
+}
+
 #clownImage {
     position: absolute;
     margin-top: 200px;

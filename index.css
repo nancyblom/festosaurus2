@@ -3,16 +3,13 @@ body {
     background-repeat: no-repeat;
     background-size: 1600px 900px;
     margin: 0px;
-}
+ }
   nav ul {
-    float: right;
-    margin-right: 20em;
+    text-align: center;
   }
-  
   nav ul li {
     display: inline-block;
   }
-  
   nav ul li a {
     padding: 30px;
     font-family: "Roboto";
@@ -22,11 +19,9 @@ body {
     display: block;
     text-shadow: 2px 2px 3px lightgrey;
   }
-  
   nav ul li a:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
     background: rgba(255, 255, 255, 0.1);
-    
   }
     .first {
     position: absolute;
@@ -35,7 +30,7 @@ body {
     font-style: italic;
     color: white;
     font-size: 100px;
-    text-shadow: 2px 2px 3px lightgrey;
+    text-shadow: 3px 3px 3px lightgrey;
   }
   .second{
     position: absolute;
@@ -46,10 +41,10 @@ body {
     font-size: 100px;
     text-shadow: 2px 2px 3px lightgrey;
   }
-
   #logo img{
-    position: absolute;
-    margin-top: 15px;
-    margin-left: 20px;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 25px;
     height: 90px;
+    bottom: 8em;
   }

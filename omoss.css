@@ -1,0 +1,101 @@
+body{
+    background-color: #ffeeec;
+    margin: 0px;
+}
+h1{
+    font-size: 50px;
+    color: black;
+    text-align: center;
+}
+h2{
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+}
+.visioner{
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+}
+p{
+    color: black;
+    text-align: center;
+    padding: 2em;
+}
+.line{
+    width: 70px;
+    border-bottom: 2px solid;
+    border-bottom-color: black;
+    position: absolute;
+    top: 245px;
+    right: 605px;
+}
+.line2{
+    width: 70px;
+    border-bottom: 2px solid;
+    border-bottom-color: black;
+    position: absolute;
+    top: 245px;
+    right: 860px;
+}
+.line3{
+    width: 70px;
+    border-bottom: 2px solid;
+    border-bottom-color: black;
+    position: absolute;
+    top: 469px;
+    right: 630px;
+}
+.line4{
+    width: 70px;
+    border-bottom: 2px solid;
+    border-bottom-color: black;
+    position: absolute;
+    top: 469px;
+    right: 830px;
+}
+nav ul {
+  text-align: center;
+  margin-right: 3em;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  padding: 30px;
+  font-family: "Roboto";
+  color: black;
+  font-size: 25px;
+  text-decoration: none;
+  display: block;
+  text-shadow: 3px 3px 3px lightgrey;
+}
+
+nav ul li a:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+#logo img{
+    position: fixed;
+    top: 13px;
+    margin-left: 25px;
+    height: 90px;
+}
+@media (max-width: 1240px){
+    #logo img{
+        position: absolute;
+        top: 13px;
+    }
+    nav ul{
+        margin-top: 120px;
+    }
+}
+@media (max-width: 1535px){
+    .line, .line2, .line3, .line4 {
+        opacity: 0%;
+    }
+
+}

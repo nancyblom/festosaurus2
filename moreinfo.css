@@ -23,6 +23,18 @@ body {
     grid-template-rows: 2fr 1fr;
 }
 
+@media screen and (max-width: 600px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    nav ul li {
+        margin-top: 70px;
+    }
+}
+
 .grid img{
     grid-column-start: 1; 
     grid-column-end: 1; 

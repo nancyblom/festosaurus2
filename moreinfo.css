@@ -2,121 +2,80 @@ body {
     background-color: #ffeeec;
 }
 
-
-#logo{
+.logo{
     position: absolute;
     margin-top: -10px;
     margin-left: 0px;
     height: 90px;
 }
 
-#ballerinaImage {
+.grid {
+    width: 820px;
+    height: 400px;
+    border: 1px solid black;
     position: absolute;
-    margin-top: 200px;
-    margin-left: 250px;
-    width: 400px;
-    box-shadow: 3px 3px #daaaaa70;
+    top: 50%;
+    left: 50%;
+    margin-top: -200px;
+    margin-left: -410px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 1fr;
 }
 
-#clownImage {
-    position: absolute;
-    margin-top: 200px;
-    margin-left: 250px;
-    width: 400px;
+.grid img{
+    grid-column-start: 1; 
+    grid-column-end: 1; 
+    grid-row-start: 1; 
+    grid-row-end: 2;
     box-shadow: 3px 3px #daaaaa70;
+    width: 400px;
+    border: 1px solid black;
 }
 
-#knightImage {
-    position: absolute;
-    margin-top: 200px;
-    margin-left: 250px;
-    width: 400px;
-    box-shadow: 3px 3px #daaaaa70;
-}
-
-#mononokeImage {
-    position: absolute;
-    margin-top: 200px;
-    margin-left: 250px;
-    width: 400px;
-    box-shadow: 3px 3px #daaaaa70;
-}
-
-#princessImage {
-    position: absolute;
-    margin-top: 200px;
-    margin-left: 250px;
-    width: 400px;
-    box-shadow: 3px 3px #daaaaa70;
-}
-
-#squirtleImage {
-    position: absolute;
-    margin-top: 200px;
-    margin-left: 250px;
-    width: 400px;
-    box-shadow: 3px 3px #daaaaa70;
-}
-
-#vaderImage {
-    position: absolute;
-    margin-top: 200px;
-    margin-left: 250px;
-    width: 400px;
-    box-shadow: 3px 3px #daaaaa70;
-}
-
-#grinchImage {
-    position: absolute;
-    margin-top: 200px;
-    margin-left: 250px;
-    width: 400px;
-    box-shadow: 3px 3px #daaaaa70;
-}
-
-#text1 {
+.grid > div > .text1 {
+    margin-left: 5%;
     font-size: 2em;
     color: #5e554c;
     font-family: Palatino, "Times New Roman";
-    position: absolute;
-    margin-top: 200px;
-    margin-left: 700px;
+    border: 1px solid black;
 }
 
-#text2 {
+.grid > div > .text2 {
+    margin-left: 5%;
     font-size: 1em;
     color: #5e554c;
     font-family: Palatino, "Times New Roman";
-    position: absolute;
-    margin-top: 300px;
-    margin-left: 700px;
+    border: 1px solid black;
 }
 
-#bokaKnapp {
+.grid > div > .bokaKnapp {
     background-color: #ffdcdc;
     color: #da9fa9;
-    font-size: 1.5em;
+    font-size: 1.2em;
     text-align: center;
+    margin-top: 25%;
+    margin-left: 5%;
     width: 150px;
     height: 50px;
-    position: absolute;
-    margin-top: 546px;
-    margin-left: 700px;
     box-shadow: 2px 2px #daaaaa70;
     line-height: 50px;
+    border: 1px solid black;
 }
 
-#bokaKnapp:hover {
+.grid > div > .bokaKnapp:hover {
     color: palevioletred;
 }
 
 nav ul {
     text-align: right;
-  }
-  nav ul li {
+}
+
+nav ul li {
     display: inline-block;
-  }
-  nav ul li a {
+}
+
+nav ul li a {
     padding: 30px;
     font-family: Palatino, "Times New Roman";
     color: #5e554c;
@@ -124,15 +83,9 @@ nav ul {
     text-decoration: none;
     display: block;
     text-shadow: 2px 2px 3px lightgrey;
-  }
-  nav ul li a:hover {
+}
+
+nav ul li a:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
     background: rgba(255, 255, 255, 0.1);
-  }
-
-  #logo{
-    position: absolute;
-    margin-top: -10px;
-    margin-left: 0px;
-    height: 90px;
-  }
+}

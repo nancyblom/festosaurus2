@@ -30,16 +30,16 @@
               <div>
                 <form action="target.html" method="post">
                   
-                    <label for="1stName">Skriv in ditt förnamn:</label><br>
-                    <input type="text" name="name" placeholder="firstName" id="1stName" />
+                    <label for="1stName">Förnamn*</label><br>
+                    <input type="text" name="name" placeholder="First name ..." id="1stName" />
                     <br><br>
-	                <label for="sirName">Skriv in ditt efternamn:</label><br>
-                    <input type="text" name="lastName" id="sirName" placeholder="lastName"/>
+	                <label for="sirName">Efternamn*</label><br>
+                    <input type="text" name="lastName" id="sirName" placeholder="Last name ..."/>
                     <br><br>
-                    <label for="email">Skriv in din Email:</label><br>
+                    <label for="email">Email*</label><br>
                     <input type="text" name="email" id="email" placeholder="Email"/>
                     <br><br>
-                    <textarea rows="10" cols="40" placeholder="Skriv in ditt meddelande för att boka eller ställa frågor:"></textarea>
+                    <textarea name="styled-textarea" id="styled" onfocus="this.value=''; setbg('#e5fff3');" onblur="setbg('white')">Skriv in ditt meddelande för att boka eller ställa frågor:</textarea> 
                    <br><button type="button">Skicka!</button>
                   
                 </form>

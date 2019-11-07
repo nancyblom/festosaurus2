@@ -1,130 +1,91 @@
-
 body {
     background-color: #ffeeec;
 }
 
-#indexBody {
-    background-image: url(images/joyceAdams.jpg);
-    width: 100vw;
-    background-repeat: no-repeat;
-    margin-top: -20p;
-
+.logo{
+    position: absolute;
+    margin-top: -10px;
+    margin-left: 0px;
+    height: 90px;
 }
 
-
-#logoText {
+.grid {
+    width: 820px;
+    height: 400px;
+    border: 1px solid black;
     position: absolute;
-    margin-top: -20px;
-    height: 130px;
+    top: 50%;
+    left: 50%;
+    margin-top: -200px;
+    margin-left: -410px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 1fr;
 }
 
-#princessImage {
-    position: absolute;
-    margin-top: 200px;
-    margin-left: 250px;
-    width: 400px;
+.grid img{
+    grid-column-start: 1; 
+    grid-column-end: 1; 
+    grid-row-start: 1; 
+    grid-row-end: 2;
     box-shadow: 3px 3px #daaaaa70;
-}
-
-#vaderImage {
-    position: absolute;
-    margin-top: 200px;
-    margin-left: 250px;
     width: 400px;
-    box-shadow: 3px 3px #daaaaa70;
+    border: 1px solid black;
 }
 
-#grinchImage {
-    position: absolute;
-    margin-top: 200px;
-    margin-left: 250px;
-    width: 400px;
-    box-shadow: 3px 3px #daaaaa70;
-}
-
-#text1 {
+.grid > div > .text1 {
+    margin-left: 5%;
     font-size: 2em;
-    color: #72727298;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    position: absolute;
-    margin-top: 200px;
-    margin-left: 700px;
+    color: #5e554c;
+    font-family: Palatino, "Times New Roman";
+    border: 1px solid black;
 }
 
-#text2 {
+.grid > div > .text2 {
+    margin-left: 5%;
     font-size: 1em;
-    color: #72727298;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    position: absolute;
-    margin-top: 300px;
-    margin-left: 700px;
+    color: #5e554c;
+    font-family: Palatino, "Times New Roman";
+    border: 1px solid black;
 }
 
-#bokaKnapp {
+.grid > div > .bokaKnapp {
     background-color: #ffdcdc;
     color: #da9fa9;
-    font-size: 1.5em;
+    font-size: 1.2em;
     text-align: center;
+    margin-top: 25%;
+    margin-left: 5%;
     width: 150px;
     height: 50px;
-    position: absolute;
-    margin-top: 546px;
-    margin-left: 700px;
     box-shadow: 2px 2px #daaaaa70;
+    line-height: 50px;
+    border: 1px solid black;
 }
 
-#bokaKnapp:hover {
+.grid > div > .bokaKnapp:hover {
     color: palevioletred;
 }
 
-#indexHeader {
-    position: absolute;
-    height: 130px;
-}
-
-.first {
-    position: absolute;
-    top: 160px;
-    left: 400px;
-    font-style: italic;
-    color: white;
-    font-size: 100px;
-    text-shadow: 2px 2px 3px lightgrey;
-}
-.second{
-    position: absolute;
-    top: 240px;
-    left: 750px;
-    font-style: italic;
-    color: white;
-    font-size: 100px;
-    text-shadow: 2px 2px 3px lightgrey;
-}
-
-/* START HEADER */
-nav {
-    width: 99vw;
-}
 nav ul {
-  text-align: right;
+    text-align: right;
 }
 
 nav ul li {
-  display: inline-block;
+    display: inline-block;
 }
+
 nav ul li a {
-    padding: 20px;
-    margin-right: 20px;
-    margin-top: 10px;
-    font-family: "apple symbols";
-    color: black;
+    padding: 30px;
+    font-family: Palatino, "Times New Roman";
+    color: #5e554c;
     font-size: 20px;
     text-decoration: none;
     display: block;
-  }
-  nav ul li a:hover {
-    background: rgba(255, 216, 216, 0.377);
-  }
+    text-shadow: 2px 2px 3px lightgrey;
+}
 
-  /* END HEADER */
-
+nav ul li a:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.1);
+}

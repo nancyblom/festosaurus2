@@ -1,5 +1,7 @@
 body {
     background-color: #ffeeec;
+    height: 100%;
+    width: 100%;
 }
 
 .logo{
@@ -10,23 +12,26 @@ body {
 }
 
 .grid {
-    width: 820px;
-    height: 400px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: -200px;
-    margin-left: -410px;
+    width: 800px;
+    height: 403px;
+    margin-left: auto;
+    margin-right: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 2fr 1fr;
+    column-gap: 3%;
+    
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     .grid {
         grid-template-columns: 1fr;
+        grid-template-rows: 2fr 1fr 1fr;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
+
 
 @media screen and (max-width: 800px) {
     nav ul li {
@@ -34,44 +39,57 @@ body {
     }
 }
 
-.grid img{
-    grid-column-start: 1; 
-    grid-column-end: 1; 
-    grid-row-start: 1; 
-    grid-row-end: 2;
+.grid > img{
+    grid-column: 1 / 1;
     box-shadow: 3px 3px #daaaaa70;
     width: 400px;
 }
 
 .grid > div > .text1 {
-    margin-left: 5%;
-    font-size: 2em;
+    margin-top: 0;
+    margin-bottom:0;
+    font-size: 2.5em;
     color: #5e554c;
-    font-family: Palatino, "Times New Roman";
+    font-family: "Amatic SC";
 }
 
 .grid > div > .text2 {
-    margin-left: 5%;
-    font-size: 1em;
+    margin-top: 2%;
+    margin-bottom:0;
+    font-size: 1.5em;
     color: #5e554c;
-    font-family: Palatino, "Times New Roman";
+    font-family: "Amatic SC";
 }
 
 .grid > div > .bokaKnapp {
-    background-color: #ffdcdc;
-    color: #da9fa9;
-    font-size: 1.2em;
+    border: 2px solid #daaaaa70;
+    background-color: #daaaaa70;
+    color: #5e554c;
+    font-size: 1em;
     text-align: center;
     margin-top: 25%;
     margin-left: 5%;
     width: 150px;
     height: 50px;
-    box-shadow: 2px 2px #daaaaa70;
     line-height: 50px;
+    text-decoration: none;
+    border-radius: 4%;
+}
+
+.grid > div > .bokaKnapp > a:visited {
+    color: #5e554c;
+    text-decoration: none;
+}
+
+.grid > div > .bokaKnapp > a {
+    color: #5e554c;
+    text-decoration: none;
 }
 
 .grid > div > .bokaKnapp:hover {
-    color: palevioletred;
+    background-color: #e2939370;
+    color: #ffeeec;
+    text-decoration: none;
 }
 
 nav ul {
@@ -84,9 +102,9 @@ nav ul li {
 
 nav ul li a {
     padding: 30px;
-    font-family: Palatino, "Times New Roman";
+    font-family: "Amatic SC";
     color: #5e554c;
-    font-size: 20px;
+    font-size: 30px;
     text-decoration: none;
     display: block;
     text-shadow: 2px 2px 3px lightgrey;

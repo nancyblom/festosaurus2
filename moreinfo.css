@@ -4,27 +4,45 @@ body {
     width: 100%;
 }
 
+/*
 .logo{
     position: absolute;
     margin-top: -10px;
     margin-left: 0px;
     height: 90px;
 }
+*/
 
-.grid {
+.flexBoxContent {
     width: 800px;
     height: 403px;
+    margin-top: 110px;
     margin-left: auto;
     margin-right: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 2fr 1fr;
     column-gap: 3%;
-    
 }
 
+
+.flexBoxHeader {
+    width: 99vw;
+    height: 90px;
+    margin-top: -10px;
+    margin-left: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flexBoxHeader > a > img {
+    height: 90px;
+}
+
+
 @media screen and (max-width: 800px) {
-    .grid {
+    .flexBoxContent {
+        width: 99%;
         grid-template-columns: 1fr;
         grid-template-rows: 2fr 1fr 1fr;
         margin-left: auto;
@@ -32,20 +50,42 @@ body {
     }
 }
 
-
 @media screen and (max-width: 800px) {
-    nav ul li {
-        margin-top: 70px;
+    .flexBoxContent > img {
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
-.grid > img{
+@media screen and (max-width: 800px) {
+    .flexBoxContent > .textButton {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .flexBoxContent > div > .bokaKnapp {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .flexBoxHeader > nav > ul > li {
+        margin-top: -27px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.flexBoxContent > img{
     grid-column: 1 / 1;
     box-shadow: 3px 3px #daaaaa70;
     width: 400px;
 }
 
-.grid > div > .text1 {
+.flexBoxContent > div > .text1 {
     margin-top: 0;
     margin-bottom:0;
     font-size: 2.5em;
@@ -53,7 +93,7 @@ body {
     font-family: "Amatic SC";
 }
 
-.grid > div > .text2 {
+.flexBoxContent > div > .text2 {
     margin-top: 2%;
     margin-bottom:0;
     font-size: 1.5em;
@@ -61,7 +101,7 @@ body {
     font-family: "Amatic SC";
 }
 
-.grid > div > .bokaKnapp {
+.flexBoxContent > div > .bokaKnapp {
     border: 2px solid #daaaaa70;
     background-color: #daaaaa70;
     color: #5e554c;
@@ -76,17 +116,17 @@ body {
     border-radius: 4%;
 }
 
-.grid > div > .bokaKnapp > a:visited {
+.flexBoxContent > div > .bokaKnapp > a:visited {
     color: #5e554c;
     text-decoration: none;
 }
 
-.grid > div > .bokaKnapp > a {
+.flexBoxContent > div > .bokaKnapp > a {
     color: #5e554c;
     text-decoration: none;
 }
 
-.grid > div > .bokaKnapp:hover {
+.flexBoxContent > div > .bokaKnapp:hover {
     background-color: #e2939370;
     color: #ffeeec;
     text-decoration: none;

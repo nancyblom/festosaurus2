@@ -257,3 +257,8 @@ transform-origin: 50% 100%;
 span{
     font-family: "Amatic SC";
 }
+em {
+    font-size: 35px;
+    font-family: "Amatic SC";
+    text-transform: uppercase;
+}

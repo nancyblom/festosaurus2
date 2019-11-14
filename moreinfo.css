@@ -1,17 +1,8 @@
 body {
     background-color: #ffeeec;
-    height: 100%;
-    width: 100%;
+    margin: 0;
+    padding: 0;
 }
-
-/*
-.logo{
-    position: absolute;
-    margin-top: -10px;
-    margin-left: 0px;
-    height: 90px;
-}
-*/
 
 .flexBoxContent {
     width: 800px;
@@ -23,60 +14,7 @@ body {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 2fr 1fr;
     column-gap: 3%;
-}
-
-
-.flexBoxHeader {
-    width: 99vw;
-    height: 90px;
-    margin-top: -10px;
-    margin-left: 0px;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.flexBoxHeader > a > img {
-    height: 90px;
-}
-
-
-@media screen and (max-width: 800px) {
-    .flexBoxContent {
-        width: 99%;
-        grid-template-columns: 1fr;
-        grid-template-rows: 2fr 1fr 1fr;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
-
-@media screen and (max-width: 800px) {
-    .flexBoxContent > img {
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
-
-@media screen and (max-width: 800px) {
-    .flexBoxContent > .textButton {
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
-
-@media screen and (max-width: 800px) {
-    .flexBoxContent > div > .bokaKnapp {
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
-
-@media screen and (max-width: 800px) {
-    .flexBoxHeader > nav > ul > li {
-        margin-top: -27px;
-        margin-left: auto;
-        margin-right: auto;
-    }
+    padding-bottom: 8em;
 }
 
 .flexBoxContent > img{
@@ -132,8 +70,21 @@ body {
     text-decoration: none;
 }
 
+.flexBoxHeader {
+    width: 99vw;
+    height: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.flexBoxHeader > a > img {
+    height: 90px;
+}
+
 nav ul {
     text-align: right;
+    margin-top: 0;
 }
 
 nav ul li {
@@ -153,4 +104,137 @@ nav ul li a {
 nav ul li a:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
     background: rgba(255, 255, 255, 0.1);
+}
+
+.fab {
+    font-size: 50px;
+    padding: 7px;
+}
+
+@keyframes bounce {
+    0%, 20%, 60%, 100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    40% {
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+
+    80% {
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+}
+
+.fa-facebook:hover {
+    color: #3b5998;
+    animation: bounce 1s;
+}
+
+.fa-twitter:hover {
+    color: #00aced;
+    animation: bounce 1s;
+}
+
+.fa-instagram:hover {
+    color: #833ab4;
+    animation: bounce 1s;
+}
+
+a {
+    color: inherit;
+}
+
+.footer-img {
+    display: block;
+    height: 9em;
+    position: relative;
+    margin: 0 auto;
+}
+
+.footer-p {
+    top: 1em;
+    font-family: 'Alegreya Sans SC';
+    font-size: 22px;
+    float: left;
+    position: relative;
+    left: 3em;
+}
+
+.icons {
+    margin-right: 50px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.icons-p {
+ font-family: 'Alegreya Sans SC';
+ font-size: 22px;
+ border-bottom: 2px solid #ffeeec;
+ margin-right: 1.5em;
+}
+
+footer {
+    background-color: #A3CFCD;
+    height: 150px;
+    display: flex;
+    margin-bottom: 0;
+    position: relative;
+    bottom: 0;
+    /* justify-content: space-evenly; */
+}
+
+footer > * {
+    flex: 1;
+    display: flex;
+ }
+
+ footer > :first-child > * {
+    margin-right: auto;
+ }
+
+ footer > :last-child > * {
+    margin-left: auto;
+ }
+
+@media screen and (max-width: 800px) {
+
+    .flexBoxContent {
+        width: 98%;
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr 1fr 1fr;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .flexBoxContent > img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .flexBoxContent > .textButton {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .flexBoxContent > .textButton > .bokaKnapp {
+        width: 100%;
+        margin-bottom: 2em;
+        display: block;
+        margin-left: 0;
+    }
+
+    .flexBoxHeader {
+        justify-content: center;
+    }
+
+    .flexBoxHeader > nav > ul {
+    padding-left: 0;
+    }
+    
+    footer{
+        opacity: 0;
+    }
 }

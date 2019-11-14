@@ -76,7 +76,7 @@ ul {
  }
 
 header, main, footer {
-	border: 2px solid gray;
+	
 	margin: 2px;
 	padding: 0.2em;
 }
@@ -112,7 +112,6 @@ header, main, footer {
   grid-gap: 20px;
   border-radius: 5px;
   background-color: rgba(242,242,242,0.6);
-  /*background-color: #f2f2f2;*/
   padding: 20px;
 }
 .contact > * {
@@ -185,7 +184,6 @@ h1 {
   }
   .article {
     display: grid;
-    /*grid-template-rows: 3em 1fr 1fr;*/
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
   }
@@ -234,7 +232,6 @@ h1 {
   }
   .article {
     display: grid;
-    /*grid-template-rows: 3em 1fr 1fr;*/
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
   }

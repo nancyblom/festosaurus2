@@ -187,10 +187,10 @@ footer > * {
   display: flex;
   justify-content: center;
 }
-footer > :first-child > {
+footer > :first-child{
   margin-right: auto;
 }
-footer > :last-child > {
+footer > :last-child{
   margin-left: auto;
 }
 

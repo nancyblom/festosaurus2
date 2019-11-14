@@ -187,10 +187,10 @@ footer > * {
   display: flex;
   justify-content: center;
 }
-footer > :first-child > {
+footer > :first-child{
   margin-right: auto;
 }
-footer > :last-child > {
+footer > :last-child{
   margin-left: auto;
 }
 
@@ -243,12 +243,8 @@ a {
 .icons{
    margin-right: 7em;
 }
-.copyright{
-  color: grey;
-  position: absolute;
-  left: 8em;
-  bottom: -34em;
-}
+
+
 .icons-p{
 text-align: center;
 font-family: 'Alegreya Sans SC';
